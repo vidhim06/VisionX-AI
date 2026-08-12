@@ -14,9 +14,10 @@ My contribution focuses on the AI components of VisionX-AI:
 - Detects objects and provides bounding boxes and confidence scores.
 - Applied confidence-threshold filtering to retain reliable detections.
 
-### Text Recognition – EasyOCR
-- Implemented EasyOCR for text recognition from visual input.
-- Worked on integrating text recognition into the VisionX-AI workflow.
+### Text Recognition – OCR Reader
+- Developed the `ocr_reader` module for text recognition using EasyOCR.
+- Processes visual input to detect and extract readable text.
+- Integrated OCR functionality into the VisionX-AI workflow.
   
 ## Tech Stack
 
