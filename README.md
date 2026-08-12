@@ -1,56 +1,59 @@
-# VisionX AI
+# VisionX-AI – AI-Powered Assistant for Visually Impaired
 
-VisionX AI is a final-year B.Tech project focused on AI-powered smart surveillance and real-time object detection using computer vision.
-
-The project uses pre-trained AI models to detect and track objects from live camera feeds, images, and videos for intelligent monitoring and surveillance applications.
-
----
-
-## Features
-
-- Real-time object detection
-- Live webcam and CCTV support
-- Image and video processing
-- Object tracking
-- Detection analytics dashboard
-- Alert and monitoring system
-
----
-
-## Tech Stack
-
-- Python
-- OpenCV
-- YOLO (Pre-trained Model)
-- Flask
-- HTML, CSS, JavaScript
-- MySQL
-- Git & GitHub
-
----
+VisionX-AI is a team-based AI and computer vision project designed to assist
+visually impaired users in understanding their surroundings through object
+detection and text recognition, with audio feedback planned as part of the
+complete system.
 
 ## My Contribution
 
-Worked on AI and model integration by implementing pre-trained models for real-time object detection and computer vision tasks.
+My contribution focuses on the AI components of VisionX-AI:
 
----
+### Object Detection – YOLOv8
+- Implemented YOLOv8-based object detection.
+- Detects objects and provides bounding boxes and confidence scores.
+- Applied confidence-threshold filtering to retain reliable detections.
+
+### Text Recognition – EasyOCR
+- Implemented EasyOCR for text recognition from visual input.
+- Worked on integrating text recognition into the VisionX-AI workflow.
+  
+## Tech Stack
+
+- Python
+- YOLOv8
+- EasyOCR
+- OpenCV
+- Computer Vision
+- Deep Learning
+
+## My Workflow
+
+Visual Input
+    ↓
+OpenCV Processing
+    ↓
+YOLOv8 Object Detection
+    ↓
+Confidence Filtering
+    ↓
+EasyOCR Text Recognition
+    ↓
+Processed Output
 
 ## Project Status
 
-🚧 Currently in planning and development phase.  
-The complete codebase and implementation will be updated soon.
+**In Progress**
 
----
+VisionX-AI is being developed collaboratively as a team project.
+This repository focuses specifically on my individual contribution to
+the computer vision and AI components.
 
-## Future Scope
+## Future Integration
 
-- Face recognition integration
-- Multi-camera support
-- Cloud deployment
-- Mobile application integration
+The complete project is planned to include:
 
----
-
-## Author
-
-**Vidhi Mittal**
+- Real-time camera-based processing
+- Integration of object detection and OCR
+- Text-to-speech/audio feedback
+- End-to-end assistance for visually impaired users
